@@ -1,0 +1,103 @@
+body{
+    background-color: var(--fundo-site);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    margin: auto;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+}
+
+.cabecalho{
+    background-color: var(--cabecalho-rodape);
+    display: flex;
+}
+
+.brasao{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.titulo{
+    font-size: 36px;
+    color: var(--fonte-cabecalho-nav-rodape);
+    margin-left: 64px;
+    margin-top: 30px;
+}
+
+.area-principal{
+    display: flex;
+}
+
+.nav ul a{
+    color: var(--fonte-cabecalho-nav-rodape);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+li{
+    width: 200px;
+    background-color: var(--nav);
+    margin-top: 10px;
+    padding: 10px;
+}
+
+li:hover{
+    background-color: var(--nav-mouse);
+}
+
+.conteudo-principal{
+    width: 420px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.titulo-main{
+    margin-bottom: 20px;
+}
+
+.texto-main{
+    margin-bottom: 20px;
+}
+
+.titulo-lateral{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subtitulo-lateral{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.texto{
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+aside img{
+    padding: 2px;
+    border: 2px solid black;
+}
+
+footer{
+    background-color: var(--cabecalho-rodape);
+    height: 72px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--fonte-cabecalho-nav-rodape);
+}
+
+footer h1{
+    font-size: 14px;
+    text-align: center;
+    margin-left: 40px;
+}
+
